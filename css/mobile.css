@@ -1,0 +1,61 @@
+@media screen and (max-width: 1200px){
+    #about-sec{
+        flex-direction: column;
+    }
+    #room-sec{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 700px){
+    .navbar{
+        flex-direction: column;
+        height: 165px;
+        transition: 0.3s linear;
+    }
+    .navbar li{
+        padding: 10px 0;
+    }
+    #about-sec{
+        padding: 2.5rem;
+    }
+    #room-sec{
+        padding: 2.5rem;
+    }
+    #services-content{
+        flex-direction: column;
+    }
+    .item{
+        padding: 30px 0;
+    }
+    #clients{
+        flex-direction: column;
+        
+    }
+    .client-item{
+        width: 100%;
+        text-align: center;
+    }
+    #footer{
+        flex-direction: column;
+    }
+    #our-desc{
+        width: 100%;
+    }
+    #contact{
+        width: 100%;
+        
+    }
+    .info{
+        justify-content: center;
+    }
+    #hamburger{
+        display: block;
+    }
+    .visibilty{
+        visibility: hidden;
+    }
+    .height{
+        height: 45px;
+    }
+    
+}
